@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li>Quiz App</li>
+            <li id="time">Time : 0 sec</li>
+        </nav>
+    </header>
+    <div class="start-center">
+        <div class="start-box">
+            <h2>Coding Quiz Challenge</h2>
+            <br>
+            <span>Try to answer to following code-related questions within the time limit.</span>
+            <br>
+            <span>Keep in mind that incorrect answers will penalize your score/time by ten seconds.</span>
+            <br>
+            <button class="start-btn">Start Quiz</button>
+        </div>
+        <div id="question-box">
+            <h2 id="question"></h2>
+            <br>
+            <li id="option1" class="options"></li>
+            <br>
+            <li id="option2" class="options"></li>
+            <br>
+            <li id="option3" class="options"></li>
+            <br>
+            <li id="option4" class="options"></li>
+            <div class="extras">
+                <span id="checked"></span>
+                <button id="next">Next</button>
+            </div>
+        </div>
+        <div class="result">
+            <h2 id="display"></h2>
+            <span id="wrong"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
